@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:inputType="number|numberDecimal"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Input Nilai 1"
+        android:id="@+id/nilai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number|numberDecimal"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:hint="Input Nilai 2"
+        android:gravity="center"
+        android:id="@+id/nilai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="#5FC268"
+        android:textSize="20dp"
+        android:id="@+id/btn_hitung"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tv_hasil"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:hint="Tidak Ada Hasil"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
